@@ -9,7 +9,5 @@ def print_authors(*authors_id):
 			print(' \nName:', data[id-1][1][0], '\nBirth:', data[id-1][1][2], 'in', data[id-1][1][3])
 	except IndexError:
 		print('\nInvalid author\'s id!')
-	except TypeError:
-		print('\nInvalid input! Author id - number between 1-100.')
 
-print_authors(1, 99, 'r')
+# print_authors_by(1, 99, 4)
